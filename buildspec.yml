@@ -1,0 +1,7 @@
+
+version: 0.2
+phases:
+  build:
+    commands:
+      - echo source version $CODEBUILD_SOURCE_VERSION
+      - echo webhook trigger $CODEBUILD_WEBHOOK_TRIGGER
